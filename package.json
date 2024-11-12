@@ -1,0 +1,32 @@
+{
+  "name": "Teneo",
+  "version": "1.0.0",
+  "description": "auto farm for teneo extension ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choir94/Teneo.git"
+  },
+  "keywords": [
+    "auto",
+    "farm",
+    "for",
+    "teneo",
+    "extension"
+  ],
+  "author": "choir94",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "https-proxy-agent": "^5.0.0",
+    "ws": "^8.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/choir94/Teneo/issues"
+  },
+  "homepage": "https://github.com/choir94/Teneo/blob/main/README.md"
+}
