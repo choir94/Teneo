@@ -6,10 +6,6 @@ const axios = require('axios');
 const HttpsProxyAgent = require('https-proxy-agent');
 const chalk = require('chalk');
 
-#!/usr/bin/env node
-
-const chalk = require('chalk');
-
 console.log(chalk.yellow(`
            _         _                   _   _           _      
      /\   (_)       | |                 | \ | |         | |     
