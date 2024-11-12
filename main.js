@@ -6,7 +6,11 @@ const axios = require('axios');
 const HttpsProxyAgent = require('https-proxy-agent');
 const chalk = require('chalk');
 
-console.log(chalk.cyan.bold(`
+#!/usr/bin/env node
+
+const chalk = require('chalk');
+
+console.log(chalk.yellow(`
            _         _                   _   _           _      
      /\   (_)       | |                 | \ | |         | |     
     /  \   _ _ __ __| |_ __ ___  _ __   |  \| | ___   __| | ___ 
@@ -17,7 +21,7 @@ console.log(chalk.cyan.bold(`
                                 |_|                             
 `));
 
-console.log(chalk.green.bold('               Join the Airdrop Node Now!'));
+console.log(chalk.blue.bold('               Join the Airdrop Node Now!'));
 console.log(chalk.green('        ──────────────────────────────────────'));
 console.log('        🚀 Telegram Group: ' + chalk.yellow.underline('https://t.me/airdrop_node'));
 console.log(chalk.green('        ──────────────────────────────────────'));
